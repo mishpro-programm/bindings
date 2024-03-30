@@ -1933,7 +1933,7 @@ class GameManager : GManager {
 	TodoReturn defaultYOffsetForBG2(int);
 	TodoReturn generateSecretNumber();
 	gd::string getPracticeMusicFile() = mac 0x354d60, win 0x11f990;
-	TodoReturn iconTypeToUnlockType(IconType) = mac 0x355a80;
+	UnlockType iconTypeToUnlockType(IconType) = mac 0x355a80;
 	TodoReturn unlockTypeToIconType(int) = mac 0x355c90;
 	TodoReturn addDuplicateLastFrame(int);
 	TodoReturn finishedLoadingGAsync(int);
